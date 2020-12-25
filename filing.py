@@ -1,7 +1,7 @@
 import pandas as pd
 
 def fill_data():
-    df = pd.read_csv('putting_value.csv') # input file 
+    df = pd.read_csv('for_glue.csv') # input file 
     fd = open('final_product.csv','w',encoding='utf-8') # output file
     ky = df.keys()
     for i in range(len(df.keys())):
